@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1654357_calculator_equal_math_minus_multiplication_icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1654357_calculator_equal_math_minus_multiplication_icon.png" />
+  </ItemGroup>
+
+</Project>
