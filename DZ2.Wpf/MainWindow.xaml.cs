@@ -114,6 +114,7 @@ namespace DZ2.Wpf
 
         private void buttonPlus_Click(object sender, RoutedEventArgs e)
         {
+            if (change) buttonEqually_Click(sender, e);
             symbolOperation = '+';
             change = true;
             textBlockOperation.Text = textBlockNum.Text + " + ";
@@ -125,6 +126,7 @@ namespace DZ2.Wpf
 
         private void buttonSubstract_Click(object sender, RoutedEventArgs e)
         {
+            if (change) buttonEqually_Click(sender, e);
             symbolOperation = '-';
             change = true;
             textBlockOperation.Text = textBlockNum.Text + " - ";
@@ -136,6 +138,7 @@ namespace DZ2.Wpf
 
         private void buttonStar_Click(object sender, RoutedEventArgs e)
         {
+            if (change) buttonEqually_Click(sender, e);
             symbolOperation = '*';
             change = true;
             textBlockOperation.Text = textBlockNum.Text + " * ";
@@ -147,6 +150,7 @@ namespace DZ2.Wpf
 
         private void buttonSlash_Click(object sender, RoutedEventArgs e)
         {
+            if (change) buttonEqually_Click(sender, e);
             symbolOperation = '/';
             change = true;
             textBlockOperation.Text = textBlockNum.Text + " / ";
